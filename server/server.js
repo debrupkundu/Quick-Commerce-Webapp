@@ -18,7 +18,10 @@ const port = process.env.PORT || 4000;
 await connectDB();
 await connectCloudinary();
 //Allow multiple origins
-const allowedOrigins = ["http://localhost:5173"]; //This defines the frontend URLs which are allowed to call your backend.
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://quick-commerce-webapp.vercel.app",
+]; //This defines the frontend URLs which are allowed to call your backend.
 
 app.post("/stripe", express.raw({ type: "application/json" }), stripeWebhooks);
 //Middleware configuration
