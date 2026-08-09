@@ -20,7 +20,7 @@ await connectCloudinary();
 //Allow multiple origins
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://quick-commerce-webapp.vercel.app",
+  "https://quick-commerce-webapp-pi0aru7u9-debrupkundus-projects.vercel.app",
 ]; //This defines the frontend URLs which are allowed to call your backend.
 
 app.post("/stripe", express.raw({ type: "application/json" }), stripeWebhooks);
