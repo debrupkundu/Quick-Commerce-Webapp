@@ -44,7 +44,7 @@ const SellerLogin = () => {
               <p>Email</p>
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder="Enter your email(admin@sample.com)"
                 className="border border-gray-200 rounded w-full p-2 mt-1 outline-primary"
                 required
                 onChange={(e) => setEmail(e.target.value)}
@@ -55,7 +55,7 @@ const SellerLogin = () => {
               <p>Password</p>
               <input
                 type="password"
-                placeholder="Enter your password"
+                placeholder="Enter your password(debrup123)"
                 className="border border-gray-200 rounded w-full p-2 mt-1 outline-primary"
                 required
                 onChange={(e) => setPassword(e.target.value)}

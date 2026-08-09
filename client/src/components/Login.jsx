@@ -59,7 +59,10 @@ const Login = () => {
           </div>
         )}
         <div className="w-full ">
-          <p>Email</p>
+          <p>
+            Email(for seller login go to
+            (https://quick-commerce-webapp.vercel.app/seller)
+          </p>
           <input
             onChange={(e) => setEmail(e.target.value)}
             value={email}
