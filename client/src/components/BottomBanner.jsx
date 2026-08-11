@@ -1,23 +1,24 @@
 import React from "react";
 import { assets, features } from "../assets/assets";
-
+import bottom_banner from "../assets/bottom_banner.png";
+import bottom_banner_sm from "../assets/bottom_banner_sm.png";
 const BottomBanner = () => {
   return (
     <div className="relative mt-24">
       <img
-        src={assets.bottom_banner_image}
+        src={bottom_banner}
         alt="banner"
         className="w-full hidden md:block"
       ></img>
       <img
-        src={assets.bottom_banner_image_sm}
+        src={bottom_banner_sm}
         alt="mobile banner"
         className="w-full md:hidden"
       ></img>
       <div className="absolute inset-0 flex flex-col items-center md:items-end md:justify-center pt-16 md:pt-0 md:pr-24">
         <div>
-          <h1 className="text-2xl md:text-3xl font-semibold text-primary mb-6">
-            Why we are the Best?
+          <h1 className="text-2xl md:text-3xl font-semibold text-[#166534] mb-6">
+            What Sets Us Apart
           </h1>
           {features.map((feature, index) => (
             <div key={index} className="flex items-center gap-4 mt-2">

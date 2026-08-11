@@ -1,23 +1,20 @@
 import React from "react";
 import { assets } from "../assets/assets";
 import { Link } from "react-router-dom";
-
+import main_banner_bg from "../assets/main_banner_bg2.png";
+import main_banner_sm from "../assets/main_banner_sm.png";
 const MainBanner = () => {
   return (
     <div className="relative">
       <img
-        src={assets.main_banner_bg}
+        src={main_banner_bg}
         alt="banner"
         className="w-full hidden md:block"
       ></img>
-      <img
-        src={assets.main_banner_bg_sm}
-        alt="banner"
-        className="w-full md:hidden"
-      ></img>
+      <img src={main_banner_sm} alt="banner" className="w-full md:hidden"></img>
       <div className="absolute inset-0 flex flex-col items-center md:items-start justify-end md:justify-center pb-24 md:pb-0 px-4 md:pl-18 lg:pl-24">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center md:text-left max-w-72 md:max-w-80 lg:max-w-105 leading-tight lg:leading-15">
-          Freshness you can taste, Savings you will Love!
+          Good Food, Great Prices, Every Day!
         </h1>
 
         <div className="flex items-center mt-6 font-medium">

@@ -1,0 +1,44 @@
+<svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cart" x1="7" y1="4" x2="24" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EF4444"/>
+      <stop offset="1" stop-color="#BF4F4F"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="4" y1="2" x2="11" y2="9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#166534"/>
+    </linearGradient>
+  </defs>
+
+  <!-- FreshRun leaf -->
+  <path d="M5.2 2.1C7.9 2 10.4 3.3 11.4 5.6C9.2 6.4 6.7 6.2 5.1 4.8C4.3 4.1 4.2 3.1 5.2 2.1Z" fill="url(#leaf)"/>
+  <path d="M4.5 8.6C6.1 6.8 7.4 5.5 9.2 4.4" stroke="#166534" stroke-width="1.05" stroke-linecap="round"/>
+
+  <!-- speed lines -->
+  <path d="M1.8 10.3H6" stroke="#EF4444" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M2.8 13H5.5" stroke="#EF4444" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- cart handle -->
+  <path d="M7.1 7.2H9.2L10.1 10.3" stroke="#263238" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- cart -->
+  <path d="M9.5 9.6H27L24.8 17.2H11.4L9.5 9.6Z" fill="url(#cart)"/>
+  <path d="M11 12.1H25.9" stroke="#FF8A8A" stroke-width=".65" opacity=".7"/>
+  <path d="M14.7 14.9L17 12.1L18.2 13.5L20.5 11.8L19.1 15.2L17.8 13.9L15.8 16.1L14.7 14.9Z" fill="white"/>
+
+  <!-- groceries -->
+  <path d="M12.2 9.7C12.1 8.1 12.7 6.8 14 6.2C15.3 6.9 15.5 8.2 14.9 9.7H12.2Z" fill="#22C55E"/>
+  <circle cx="16.1" cy="8.4" r="1.45" fill="#FACC15"/>
+  <circle cx="18.5" cy="8.2" r="1.45" fill="#EF4444"/>
+  <path d="M20.2 9.7C20.1 7.8 20.8 6.2 22 5.2C23.1 6.4 23.1 8.1 22.3 9.7H20.2Z" fill="#F97316"/>
+  <path d="M23.2 9.7C22.7 8.3 23.1 7 24.3 6.3C25.4 7.2 25.4 8.5 24.8 9.7H23.2Z" fill="#22C55E"/>
+
+  <!-- wheels -->
+  <circle cx="14" cy="19.3" r="1.55" fill="#263238"/>
+  <circle cx="23" cy="19.3" r="1.55" fill="#263238"/>
+  <circle cx="14" cy="19.3" r=".55" fill="#CBD5E1"/>
+  <circle cx="23" cy="19.3" r=".55" fill="#CBD5E1"/>
+
+  <!-- ground/swoosh -->
+  <path d="M8.5 22H25.8" stroke="#166534" stroke-width="1.05" stroke-linecap="round"/>
+</svg>

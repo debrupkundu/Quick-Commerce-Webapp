@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { assets } from "../assets/assets.js";
 import { useAppContext } from "../context/AppContext";
 import toast from "react-hot-toast";
-
+import Main_logo from "../assets/freshrun_logo.svg";
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   const {
@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white relative transition-all">
       <NavLink to="/" onClick={() => setOpen(false)}>
-        <img className="h9" src={assets.logo} alt="dummyLogo"></img>
+        <img className="h9" src={Main_logo} alt="dummyLogo"></img>
       </NavLink>
 
       {/* Desktop Menu */}
