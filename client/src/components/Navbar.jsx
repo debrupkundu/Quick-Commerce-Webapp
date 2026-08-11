@@ -127,7 +127,7 @@ const Navbar = () => {
             All Products
           </NavLink>
 
-          <NavLink to="/" onClick={() => setOpen(false)}>
+          <NavLink to="/cart" onClick={() => setOpen(false)}>
             My Orders
           </NavLink>
           {!user ? (
